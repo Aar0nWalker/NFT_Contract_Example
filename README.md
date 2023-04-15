@@ -1,5 +1,10 @@
 # NFT Contract Example
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Solidity-0.8.19-informational" alt="Solidity Version">
+  <img src="https://img.shields.io/badge/License-MIT-success" alt="License">
+</p>
+  
 <h3>About</h3>
 
 There is a simple NFT template made on ERC721A token standard. Contract provides these functions: public sale (mint), presale (whitelist), reveal (anytime metadata changing), some total and personal caps (limited NFT count in contract's collection, limited mints on every user's wallet), price changing, presale and public sale switch, partial and full funds withdrawal.
@@ -12,3 +17,4 @@ ERC721A standard ensures less gas consumption for minting functions. For the che
 
 - Add audit report
 - Add merkle proof web2 example script
+- Add tests
