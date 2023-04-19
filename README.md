@@ -19,3 +19,4 @@ ERC721A standard ensures less gas consumption for minting functions. For the che
 - Add merkle proof web2 example script
 - Add tests
 - Gas optimisation
+- Add events
