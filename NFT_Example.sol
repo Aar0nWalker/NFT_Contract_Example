@@ -32,10 +32,13 @@ contract NFT is ERC721A, Ownable, ReentrancyGuard {
     
     address founderAddress;
 
-    constructor(string memory baseURI) ERC721A("Collection", "NFT") {
+    constructor(string memory baseURI, uint256 _maxNFTs) ERC721A("Collection", "NFT") {
         baseTokenURI = baseURI;
         founderAddress = msg.sender;       
         totalNFTs = 0;
+        maxNFTs = _maxNFTs;
+        NFTLimitPublic = _maxNFTs;
+        NFTLimitPresale = _maxNFTs;
     }
     
     //Settings
